@@ -1,24 +1,5 @@
 {
     "store.home": {
-        "blocks": [
-            "rich-text#title",
-            "rich-text#values"
-        ]
-    },
-    "rich-text#title": {
-        "title": "Título Valores",
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "# Nuestros Valores"
-        }
-    },
-    "rich-text#values": {
-        "title": "Lista de Valores",
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "\n - Perseguimos el WOW de nuestros clientes \n - Perseguimos el aprendizaje y el crecimiento \n - Somos apasionados y disciplinados \n - Somos un equipo \n - Somos orientas a resultados"
-        }
+        "blocks": []
     }
 }
