@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#recommendations":{
+        "children":[
+            "flex-layout.col#recommendations-desc",
+            "list-context.image-list#recommendations-slider"
+        ]
+    },
+    "flex-layout.col#recommendations-desc":{
+        "children":[
+            "rich-text#recommendations-title",
+            "rich-text#recommendations-subtitle"
+        ]
+    },
+    "rich-text#recommendations-title":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "LO MEJOR PARA TU PIEL"
+          }
+    },
+    "rich-text#recommendations-subtitle":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "DERMOCOSMÉTICA"
+          }
+    },
+    "list-context.image-list#recommendations-slider": {
+        "children": [
+            "slider-layout#recommendations"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "https://imgur.com/Apxvt2Q",
+                    "link": {
+                        "url": "/category-1"
+                    }
+                },
+                {
+                    "image": "https://imgur.com/vmzoyCd.jpg",
+                    "link": {
+                        "url": "/category-1"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/i9fSgqT.jpg",
+                    "link": {
+                        "url": "/category-1"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#recommendations": {
+        "props": {
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 3500
+            }
+        }
+    }
+}

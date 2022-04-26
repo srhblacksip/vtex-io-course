@@ -1,0 +1,129 @@
+{
+    "flex-layout.row#featured-categories": {
+        "children": [
+            "flex-layout.col#featured-categories"
+        ]
+    },
+    "flex-layout.col#featured-categories": {
+        "children": [
+            
+            "slider-layout#featured-categories"
+        ]
+    },
+    "slider-layout#featured-categories": {
+        "children": [
+            "flex-layout.row#featured-category-one",
+            "flex-layout.row#featured-category-two",
+            "flex-layout.row#featured-category-three",
+            "flex-layout.row#featured-category-four"
+        ],
+        "props": {
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 3500
+            }
+        }
+    },
+    "flex-layout.row#featured-category-one": {
+        "children": [
+            "flex-layout.col#featured-category-one"
+        ]
+    },
+    "flex-layout.col#featured-category-one": {
+        "children": [
+            "image#featured-category-icon-one",
+            "rich-text#featured-category-name-one"
+        ]
+    },
+    "image#featured-category-icon-one": {
+        "props": {
+            "src": "https://imgur.com/Apxvt2Q.jpg",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#featured-category-name-one": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Cuidado facial**"
+        }
+    },
+    "flex-layout.row#featured-category-two": {
+        "children": [
+            "flex-layout.col#featured-category-two"
+        ]
+    },
+    "flex-layout.col#featured-category-two": {
+        "children": [
+            "image#featured-category-icon-two",
+            "rich-text#featured-category-name-two"
+        ]
+    },
+    "image#featured-category-icon-two": {
+        "props": {
+            "src": "https://imgur.com/R2Nvpir.jpg",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#featured-category-name-two": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Cuidado facial**"
+        }
+    },
+    "flex-layout.row#featured-category-three": {
+        "children": [
+            "flex-layout.col#featured-category-three"
+        ]
+    },
+    "flex-layout.col#featured-category-three": {
+        "children": [
+            "image#featured-category-icon-three",
+            "rich-text#featured-category-name-three"
+        ]
+    },
+    "image#featured-category-icon-three": {
+        "props": {
+            "src": "https://imgur.com/mRUBIWe.jpg",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#featured-category-name-three": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Cuidado facial**"
+        }
+    },
+    "flex-layout.row#featured-category-four": {
+        "children": [
+            "flex-layout.col#featured-category-four"
+        ]
+    },
+    "flex-layout.col#featured-category-four": {
+        "children": [
+            "image#featured-category-icon-four",
+            "rich-text#featured-category-name-four"
+        ]
+    },
+    "image#featured-category-icon-four": {
+        "props": {
+            "src": "https://imgur.com/VmC54EE.jpg",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#featured-category-name-four": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Cuidado facial**"
+        }
+    }
+}

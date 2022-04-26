@@ -1,0 +1,127 @@
+{
+    /*"store.home": {
+        "blocks": [
+            "flex-layout.row#latest-arrivals"
+        ]
+    },
+    "flex-layout.row#latest-arrivals": {
+        "children": [
+            "flex-layout.col#latest-arrivals-desc-container",
+            "flex-layout.col#latest-arrivals-products"
+        ]
+    },
+    "flex-layout.col#latest-arrivals-desc-container": {
+        "children": [
+            "rich-text#latest-arrivals-title",
+            "rich-text#latest-arrivals-desc",
+            "link#latest-arrivals-page"
+        ]
+    },
+    "rich-text#latest-arrivals-title": {
+        "props": {
+            "text": "#### Latest arrivals and trends release"
+        }
+    },
+    "rich-text#latest-arrivals-desc": {
+        "props": {
+            "text": "##### New possibilities. Better access."
+        }
+    },
+    "link#latest-arrivals-page": {
+        "props": {
+            "href": "/new-arrivals",
+            "label": "View More",
+            "target": "_blank"
+        }
+    },
+    "flex-layout.col#latest-arrivals-products": {
+        "children": [
+            "flex-layout.row#latest-arrivals-products"
+        ]
+    },
+    "flex-layout.row#latest-arrivals-products": {
+        "children": [
+            "flex-layout.col#product-1",
+            "flex-layout.col#product-2",
+            "flex-layout.col#product-3"
+        ]
+    },
+    //Product 1
+    "flex-layout.col#product-1": {
+        "children": [
+            "rich-text#title-product-1",
+            "rich-text#desc-product-1",
+            "image#image-product-1"
+        ]
+    },
+    "rich-text#title-product-1": {
+        "props": {
+            "text": "**shipping discount**"
+        }
+    },
+    "rich-text#desc-product-1": {
+        "props": {
+            "text": "Up to US $20 off shipping"
+        }
+    },
+    "image#image-product-1": {
+        "props": {
+            "src": "https://i.imgur.com/u0KnAfL.jpg",
+            "link": {
+                "url": "/category-1"
+            }
+        }
+    },
+    //Product 2
+    "flex-layout.col#product-2": {
+        "children": [
+            "rich-text#title-product-2",
+            "rich-text#desc-product-2",
+            "image#image-product-2"
+        ]
+    },
+    "rich-text#title-product-2": {
+        "props": {
+            "text": "**2022 trends release**"
+        }
+    },
+    "rich-text#desc-product-2": {
+        "props": {
+            "text": "Stay ahead of the curve"
+        }
+    },
+    "image#image-product-2": {
+        "props": {
+            "src": "https://i.imgur.com/QJVSA3f.jpg",
+            "link": {
+                "url": "/category-2"
+            }
+        }
+    },
+    //Product 3
+    "flex-layout.col#product-3": {
+        "children": [
+            "rich-text#title-product-3",
+            "rich-text#desc-product-3",
+            "image#image-product-3"
+        ]
+    },
+    "rich-text#title-product-3": {
+        "props": {
+            "text": "**Verified Manufacturers**"
+        }
+    },
+    "rich-text#desc-product-3": {
+        "props": {
+            "text": "US $1M+ exports or over 100..."
+        }
+    },
+    "image#image-product-3": {
+        "props": {
+            "src": "https://i.imgur.com/JsCrWhS.jpg",
+            "link": {
+                "url": "/category-3"
+            }
+        }
+    }*/
+}

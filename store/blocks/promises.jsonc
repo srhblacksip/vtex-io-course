@@ -1,0 +1,131 @@
+{
+    "flex-layout.row#promises":{
+        "children":[
+            "flex-layout.col#promises-one",
+            "flex-layout.col#promises-two",
+            "flex-layout.col#promises-three",
+            "flex-layout.col#promises-four",
+            "flex-layout.col#promises-five"
+        ]
+    },
+    "flex-layout.col#promises-one":{
+        "children":[
+            "flex-layout.row#promises-one"
+        ]
+    },
+    "flex-layout.col#promises-two":{
+        "children":[
+            "flex-layout.row#promises-two"
+        ]
+    },
+    "flex-layout.col#promises-three":{
+        "children":[
+            "flex-layout.row#promises-three"
+        ]
+    },
+    "flex-layout.col#promises-four":{
+        "children":[
+            "flex-layout.row#promises-four"
+        ]
+    },
+    "flex-layout.col#promises-five":{
+        "children":[
+            "flex-layout.row#promises-five"
+        ]
+    },
+    "flex-layout.row#promises-one": {
+        "children":[
+            "image#icon-one",
+            "rich-text#Text-one"
+        ]
+    },
+    "image#icon-one":{
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#Text-one":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Entregas en \n **45 min**"
+          }
+    },
+    "flex-layout.row#promises-two": {
+        "children":[
+            "image#icon-two",
+            "rich-text#Text-two"
+        ]
+    },
+    "image#icon-two":{
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#Text-two":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Compra **fácil y segura**"
+          }
+    },
+    "flex-layout.row#promises-three": {
+        "children":[
+            "image#icon-three",
+            "rich-text#Text-three"
+        ]
+    },
+    "image#icon-three":{
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#Text-three":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Mejoras precios y **ofertas**"
+          }
+    },
+    "flex-layout.row#promises-four": {
+        "children":[
+            "image#icon-four",
+            "rich-text#Text-four"
+        ]
+    },
+    "image#icon-four":{
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#Text-four":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**Seguimiento** \n de tus pedidos"
+          }
+    },
+    "flex-layout.row#promises-five": {
+        "children":[
+            "image#icon-five",
+            "rich-text#Text-five"
+        ]
+    },
+    "image#icon-five":{
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 24
+        }
+    },
+    "rich-text#Text-five":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Pago **online y contra entrega**"
+          }
+    }
+}

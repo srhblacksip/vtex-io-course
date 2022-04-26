@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#farma-express":{
+        "children":[
+            "flex-layout.col#farma-express"
+        ]
+    },
+    "flex-layout.col#farma-express":{
+        "children":[
+            "rich-text#farma-express",
+            "flex-layout.row#promises"
+        ]
+    },
+    "rich-text#farma-express": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**FARMAEXPRESS** \n Es una vitrina donde podrás encontrar productos para la salud, belleza y cuidado personal que ofrece la red de las droguerías más grandes a nivel nacional."
+        }
+    }
+}
