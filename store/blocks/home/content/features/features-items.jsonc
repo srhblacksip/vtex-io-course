@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#recipe-feature-one": {
+        "children": [
+            "image#recipe-feature-one-icon",
+            "rich-text#recipe-feature-one-name"
+        ]
+    },
+    "image#recipe-feature-one-icon": {
+        "props": {
+            "src": "https://i.imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#recipe-feature-one-name":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "60 minutos"
+          }
+    },
+    "flex-layout.row#recipe-feature-two": {
+        "children": [
+            "image#recipe-feature-two-icon",
+            "rich-text#recipe-feature-two-name"
+        ]
+    },
+    "image#recipe-feature-two-icon": {
+        "props": {
+            "src": "https://i.imgur.com/YU224Ni.png"
+        }
+    },
+    "rich-text#recipe-feature-two-name":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "8 ingredientes"
+          }
+    },
+    "flex-layout.row#recipe-feature-three": {
+        "children": [
+            "image#recipe-feature-three-icon",
+            "rich-text#recipe-feature-three-name"
+        ]
+    },
+    "image#recipe-feature-three-icon": {
+        "props": {
+            "src": "https://i.imgur.com/EvjGjXS.png"
+        }
+    },
+    "rich-text#recipe-feature-three-name":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Nivel: principiante"
+          }
+    },
+    "flex-layout.row#recipe-feature-four": {
+        "children": [
+            "image#recipe-feature-four-icon",
+            "rich-text#recipe-feature-four-name"
+        ]
+    },
+    "image#recipe-feature-four-icon": {
+        "props": {
+            "src": "https://i.imgur.com/9V8uyXo.png"
+        }
+    },
+    "rich-text#recipe-feature-four-name":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "4 a 6 comensales"
+          }
+    },
+    "flex-layout.row#recipe-feature-five": {
+        "children": [
+            "image#recipe-feature-five-icon",
+            "rich-text#recipe-feature-five-name"
+        ]
+    },
+    "image#recipe-feature-five-icon": {
+        "props": {
+            "src": "https://i.imgur.com/xx4LO0k.png"
+        }
+    },
+    "rich-text#recipe-feature-five-name":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "S/1200 – S/1480"
+          }
+    },
+    "flex-layout.row#recipe-feature-six": {
+        "children": [
+            "image#recipe-feature-six-icon",
+            "rich-text#recipe-feature-six-name"
+        ]
+    },
+    "image#recipe-feature-six-icon": {
+        "props": {
+            "src": "https://i.imgur.com/IhKo5Rc.png"
+        }
+    },
+    "rich-text#recipe-feature-six-name":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "País: Perú"
+          }
+    }
+}

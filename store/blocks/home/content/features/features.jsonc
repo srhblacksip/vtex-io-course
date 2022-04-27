@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#recipe-features":{
+        "props": {
+            "preventHorizontalStretch": true
+        },
+        "children":[
+            "responsive-layout.desktop#recipe-features",
+            "responsive-layout.mobile#recipe-features"
+        ]
+    },
+    "responsive-layout.desktop#recipe-features": {
+        "children": [
+            "flex-layout.row#recipe-features-desktop"
+        ]
+    },
+    "flex-layout.row#recipe-features-desktop": {
+        "children": [
+            "flex-layout.col#recipe-features-desktop-col1",
+            "flex-layout.col#recipe-features-desktop-col2",
+            "flex-layout.col#recipe-features-desktop-col3"
+        ]
+    },
+    "flex-layout.col#recipe-features-desktop-col1": {
+        "children": [
+            "flex-layout.row#recipe-feature-one",
+            "flex-layout.row#recipe-feature-four"
+        ]
+    },
+    "flex-layout.col#recipe-features-desktop-col2": {
+        "children": [
+            "flex-layout.row#recipe-feature-two",
+            "flex-layout.row#recipe-feature-five"
+        ]
+    },
+    "flex-layout.col#recipe-features-desktop-col3": {
+        "children": [
+            "flex-layout.row#recipe-feature-three",
+            "flex-layout.row#recipe-feature-six"
+        ]
+    },
+    "responsive-layout.mobile#recipe-features": {
+        "children": [
+            "flex-layout.row#recipe-features-mobile"
+        ]
+    },
+    "flex-layout.row#recipe-features-mobile": {
+        "children": [
+            "flex-layout.col#recipe-features-mobile-col1",
+            "flex-layout.col#recipe-features-mobile-col2"
+        ]
+    },
+    "flex-layout.col#recipe-features-mobile-col1": {
+        "children": [
+            "flex-layout.row#recipe-feature-one",
+            "flex-layout.row#recipe-feature-three",
+            "flex-layout.row#recipe-feature-five"
+        ]
+    },
+    "flex-layout.col#recipe-features-mobile-col2": {
+        "children": [
+            "flex-layout.row#recipe-feature-two",
+            "flex-layout.row#recipe-feature-four",
+            "flex-layout.row#recipe-feature-six"
+        ]
+    }
+}

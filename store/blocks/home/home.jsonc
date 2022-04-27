@@ -1,8 +1,7 @@
 {
     "store.home": {
         "blocks": [
-            "flex-layout.row#promises",
-            "flex-layout.row#categories-section"
+            "flex-layout.row#recipe"
         ]
     }
 }
