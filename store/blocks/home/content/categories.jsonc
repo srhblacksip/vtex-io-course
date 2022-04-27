@@ -1,0 +1,194 @@
+{
+    "flex-layout.row#categories-section": {
+        "title": "Categorías",
+        "props":{
+            "preventHorizontalStretch": true,
+            "marginTop": 5
+        },
+        "children":[
+            "flex-layout.col#categories-title",
+            "flex-layout.row#categories"
+        ]
+    },
+    "flex-layout.col#categories-title": {
+        "props":{
+            "marginRight": 5
+        },
+        "children":[
+            "rich-text#categories-title",
+            "link#categories-seeall"
+        ]
+    },
+    "rich-text#categories-title": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "¿QUÉ ESTÁS BUSCANDO?"
+        }
+    },
+    "link#categories-seeall": {
+        "props": {
+          "href": "/#",
+          "label": "VER TODO"
+        }
+    },
+    "flex-layout.row#categories": {
+        "props":{
+            "fullWidth": true
+        },
+        "children":[
+            "flex-layout.col#category-one",
+            "flex-layout.col#category-two",
+            "flex-layout.col#category-three",
+            "flex-layout.col#category-four",
+            "flex-layout.col#category-five",
+            "flex-layout.col#category-six",
+            "flex-layout.col#category-seven",
+            "flex-layout.col#category-eight"
+        ]
+    },
+    "flex-layout.col#category-one": {
+        "children":[
+            "image#category-one",
+            "rich-text#category-one-name"
+        ]
+    },
+    "image#category-one":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-one-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-two": {
+        "children":[
+            "image#category-two",
+            "rich-text#category-two-name"
+        ]
+    },
+    "image#category-two":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-two-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-three": {
+        "children":[
+            "image#category-three",
+            "rich-text#category-three-name"
+        ]
+    },
+    "image#category-three":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-three-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-four": {
+        "children":[
+            "image#category-four",
+            "rich-text#category-four-name"
+        ]
+    },
+    "image#category-four":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-four-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-five": {
+        "children":[
+            "image#category-five",
+            "rich-text#category-five-name"
+        ]
+    },
+    "image#category-five":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-five-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-six": {
+        "children":[
+            "image#category-six",
+            "rich-text#category-six-name"
+        ]
+    },
+    "image#category-six":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-six-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-seven": {
+        "children":[
+            "image#category-seven",
+            "rich-text#category-seven-name"
+        ]
+    },
+    "image#category-seven":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-seven-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#category-eight": {
+        "children":[
+            "image#category-eight",
+            "rich-text#category-eight-name"
+        ]
+    },
+    "image#category-eight":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#category-eight-name": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Cuidado Capilar"
+        }
+    }
+}

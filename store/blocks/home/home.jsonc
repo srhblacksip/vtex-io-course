@@ -1,5 +1,8 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "flex-layout.row#promises",
+            "flex-layout.row#categories-section"
+        ]
     }
 }
