@@ -1,0 +1,49 @@
+{
+    "drawer#sizeguide": {
+        "title": "Guía de tallas",
+        "children": [
+            "flex-layout.row#sizeguide"
+        ],
+        "blocks": [
+            "drawer-header#sizeguide",
+            "drawer-trigger#sizeguide"
+        ]
+    },
+    "flex-layout.row#sizeguide":{
+        "children":[
+            "flex-layout.col#sizeguide"
+        ]
+    },
+    "flex-layout.col#sizeguide":{
+        "children":[
+            "drawer#sizeguide-woman",
+            "drawer#sizeguide-man"
+        ]
+    },
+    "rich-text#drawer-woman": {
+        "props": {
+            "text": "Mujer"
+        }
+    },
+    "rich-text#drawer-man": {
+        "props": {
+            "text": "Hombre"
+        }
+    },
+    "drawer-header#sizeguide": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#open-drawer"
+        ]
+    },
+    "drawer-trigger#sizeguide": {
+        "children": [
+            "rich-text#open-drawer"
+        ]
+    },
+    "rich-text#open-drawer": {
+        "props": {
+            "text": "Guía de Tallas"
+        }
+    }
+}

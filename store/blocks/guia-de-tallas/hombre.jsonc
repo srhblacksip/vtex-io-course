@@ -1,0 +1,38 @@
+{
+    "drawer#sizeguide-man": {
+        "title": "Guía de tallas",
+        "children":[
+            "image#sizeguide-man"
+        ],
+        "blocks": [
+            "drawer-header#sizeguide-man",
+            "drawer-trigger#sizeguide-man"
+        ]
+    },
+    "image#sizeguide-man":{
+        "props":{
+            "src": "https://imgur.com/HLLiO8N.jpg"
+        }
+    },
+    "drawer-header#sizeguide-man": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#open-drawer-man"
+        ]
+    },
+    "drawer-trigger#sizeguide-man": {
+        "children": [
+            "rich-text#open-drawer-man"
+        ]
+    },
+    "rich-text#open-drawer-man": {
+        "props": {
+            "text": "Hombre"
+        }
+    },
+    "rich-text#header-drawer-man": {
+        "props": {
+            "text": "Guía de Tallas Hombre"
+        }
+    }
+}

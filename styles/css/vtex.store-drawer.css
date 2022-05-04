@@ -1,0 +1,10 @@
+.closeIconButton {
+    background-image: url(https://i.imgur.com/r1VYUKc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.closeIcon {
+    display: none;
+}
