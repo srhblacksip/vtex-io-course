@@ -20,9 +20,20 @@
             "rich-text#header-drawer-woman"
         ]
     },
+    "rich-text#header-drawer-woman": {
+        "props": {
+            "text": "Guía de Tallas Mujer"
+        }
+    },
     "drawer-trigger#sizeguide-woman": {
         "children": [
-            "rich-text#open-drawer-woman"
+            "flex-layout.row#open-sizeguide-woman"
+        ]
+    },
+    "flex-layout.row#open-sizeguide-woman":{
+        "children": [
+            "rich-text#open-drawer-woman",
+            "image#open-drawer-woman"
         ]
     },
     "rich-text#open-drawer-woman": {
@@ -30,9 +41,10 @@
             "text": "Mujer"
         }
     },
-    "rich-text#header-drawer-woman": {
-        "props": {
-            "text": "Guía de Tallas Mujer"
+    "image#open-drawer-woman":{
+        "props":{
+            "src": "https://i.imgur.com/r1VYUKc.png",
+            "maxHeight" : "12px"
         }
     }
 }

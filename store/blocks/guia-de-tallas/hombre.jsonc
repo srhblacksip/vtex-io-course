@@ -22,7 +22,7 @@
     },
     "drawer-trigger#sizeguide-man": {
         "children": [
-            "rich-text#open-drawer-man"
+            "flex-layout.row#open-sizeguide-man"
         ]
     },
     "rich-text#open-drawer-man": {
@@ -30,9 +30,21 @@
             "text": "Hombre"
         }
     },
+    "flex-layout.row#open-sizeguide-man":{
+        "children": [
+            "rich-text#open-drawer-man",
+            "image#open-drawer-man"
+        ]
+    },
     "rich-text#header-drawer-man": {
         "props": {
             "text": "Guía de Tallas Hombre"
+        }
+    },
+    "image#open-drawer-man":{
+        "props":{
+            "src": "https://i.imgur.com/r1VYUKc.png",
+            "maxHeight" : "12px"
         }
     }
 }
