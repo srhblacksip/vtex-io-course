@@ -1,0 +1,98 @@
+{
+    "vtex.menu@2.x:menu#department1": {
+        "children": [
+            "flex-layout.row#menu-department1"
+        ]
+    },
+    "flex-layout.row#menu-department1":{
+        "children": [
+            "flex-layout.col#menu-department1"
+        ]
+    },
+    "flex-layout.col#menu-department1":{
+        "children": [
+            "menu-item#department1-category1",
+            "menu-item#department1-category2"
+        ]
+    },
+    "menu-item#department1-category1": {
+        "props": {
+            "id": "menu-department1-category1",
+            "type": "custom",
+            "highlight": false,
+            //"onMountBehavior": "open",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "department1 category1",
+                "text": "Categoría"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#department1-category1"]
+    },
+    "vtex.menu@2.x:submenu#department1-category1":{
+        "children":[
+            "vtex.menu@2.x:menu#department1-category1"
+        ]
+    },
+    "vtex.menu@2.x:menu#department1-category1":{
+        "children": [
+            "flex-layout.row#department1-category1"
+        ]
+    },
+    "flex-layout.row#department1-category1":{
+        "children": [
+            "flex-layout.col#department1-category1"
+        ]
+    },
+    "flex-layout.col#department1-category1":{
+        "children": [
+            "menu-item#department1-category1-subcategory1",
+            "menu-item#department1-category1-subcategory2"
+        ]
+    },
+    "menu-item#department1-category1-subcategory1": {
+        "props": {
+            "id": "menu-department1-category1-subcategory1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "department1 category1",
+                "text": "Subcategoría"
+            }
+        }
+    },
+    "menu-item#department1-category1-subcategory2": {
+        "props": {
+            "id": "menu-department1-category1-subcategory2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "department1 category1",
+                "text": "Subcategoría"
+            }
+        }
+    },
+    "menu-item#department1-category2": {
+        "props": {
+            "id": "menu-department1-category2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "department1 category2",
+                "text": "Categoría"
+            }
+        }
+        //"blocks": ["vtex.menu@2.x:submenu#department1"]
+    }
+}

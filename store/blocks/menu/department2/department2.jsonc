@@ -1,0 +1,16 @@
+{
+    "menu-item#department2": {
+        "props": {
+            "id": "menu-department2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "department2",
+                "text": "Departamento 2"
+            }
+        }
+    }
+}

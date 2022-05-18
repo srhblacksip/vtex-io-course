@@ -1,7 +1,7 @@
 {
     "store.home": {
         "blocks": [
-            
+            "vtex.menu@2.x:menu#departments"
         ]
     }
 }

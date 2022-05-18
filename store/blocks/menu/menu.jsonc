@@ -1,0 +1,8 @@
+{
+    "vtex.menu@2.x:menu#departments": {
+        "children": [
+            "menu-item#department1",
+            "menu-item#department2"
+        ]
+    }
+}
